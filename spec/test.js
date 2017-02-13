@@ -59,6 +59,15 @@ describe("Test casese to test OOP functionality of the program",function(){
 
 		});
 
+		it("Using 'Object.create' with an object of Person should inherit Person Class",function(){
+
+			var girl = new Person();
+			var boy = Object.create(girl);
+			expect(typeof boy.walk).toEqual(typeof function(){});
+			expect(boy instanceof Person).toBeTruthy();
+
+		});
+
 	});
 
 
