@@ -4,7 +4,7 @@
   "description": "A real-world problem modeled using OOP while taking advantage of inheritance, encapsulation, polymorphism and the other OOP concepts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jasmine/bin/jasmine spec/test.js"
   },
   "repository": {
     "type": "git",
