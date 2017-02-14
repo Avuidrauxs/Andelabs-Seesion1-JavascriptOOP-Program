@@ -41,7 +41,7 @@ describe("Test casese to test OOP functionality of the program",function(){
 		it("Person object created age should increase after birth through a method and also excute other methods",function(){
 
 			var audax = new Person('audax','mutumbu');
-			audax.getBirthday();
+			audax.getBirthdayAge();
 			
 			expect(audax.age).toBe(31);
 			expect(audax.walk(30)).toEqual('audax is walking 30 steps');
